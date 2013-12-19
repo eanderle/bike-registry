@@ -10,7 +10,9 @@ object ApplicationBuild extends Build {
   val appDependencies = Seq(
     // Add your project dependencies here,
     jdbc,
-    anorm
+    anorm,
+    "org.webjars" %% "webjars-play" % "2.1.0-2",
+    "org.webjars" % "bootstrap" % "2.3.2"
   )
 
 
